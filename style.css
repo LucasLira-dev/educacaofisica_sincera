@@ -1,0 +1,14 @@
+@charset "UTF-8"; 
+
+header {
+    text-align: center;
+    background-image:linear-gradient(to right, #F29F05, #F28705, #F25C05, #D93D04);
+    padding: 10px;
+    color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: italic;
+  font-size: 1.3em;
+  font-variant: small-caps;
+}
