@@ -1,5 +1,11 @@
 @charset "UTF-8"; 
 
+body {
+  background-color:  aliceblue;
+}
+
+
+
 header {
     text-align: center;
     background-image:linear-gradient(to right, #F29F05, #F28705, #F25C05, #D93D04);
@@ -11,4 +17,59 @@ header {
   font-style: italic;
   font-size: 1.3em;
   font-variant: small-caps;
+}
+ 
+h2 {
+  font-family: "Roboto Condesed", sans-serif;
+  font-weight: 200;
+  background-color: #F28705;
+  color: rgba(255, 255, 255, 0.764);
+}
+
+h3 {
+  font-family: "Roboto Condesed", sans-serif;
+  font-weight: 100;
+  background-image:linear-gradient(to right, #f287053e, transparent);
+  margin-bottom: 5px;
+  
+
+}
+
+main {
+  background-color: white;
+  min-width: 250px;
+  max-width: 800px;
+  margin: auto;
+}
+main p {
+  margin: 10px 0px;
+  text-align: justify;
+  text-indent: 10px;
+  padding-right: 5px;
+  line-height: 25px;
+}
+
+ picture 
+{
+  padding-left: 10%;
+}
+
+footer {
+  margin: auto;
+  background-color: #F25C05;
+  width: 300px;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+}
+
+span {
+  font-weight: bolder;
+}
+
+span:hover {
+  background: white;
+  color: green;
 }
