@@ -23,7 +23,8 @@ h2 {
   font-family: "Roboto Condesed", sans-serif;
   font-weight: 200;
   background-color: #F28705;
-  color: rgba(255, 255, 255, 0.764);
+  color: rgba(255, 255, 255, 0.868);
+  border: 2px solid rgba(0, 0, 0, 0.108);
 }
 
 h3 {
@@ -42,6 +43,7 @@ main {
   margin: auto;
 }
 main p {
+  font-size: 1.3em;
   margin: 10px 0px;
   text-align: justify;
   text-indent: 10px;
@@ -73,3 +75,5 @@ span:hover {
   background: white;
   color: green;
 }
+
+
